@@ -1,0 +1,207 @@
+@media (max-width: 768px) 
+{
+    body 
+    {
+        font-size: 14px;
+        background-color: #e1e4e0;
+        color: rgb(43, 75, 12);
+        font-family: "Times New Roman";
+        height: 35px;
+    }
+
+    .container 
+    {
+        width: 90%;
+    }
+
+    img 
+    {
+        width: 70%;
+        height: auto;
+    }
+
+    table 
+    {
+        width: 100%;
+    }
+
+    video 
+    {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+/* The container for your green rectangle */
+#nav-wrapper 
+{
+    background-color: rgb(5, 139, 90);
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: fit-content; /* Keeps it tight around the buttons */
+}
+
+/* Force the Bootstrap buttons to be smaller */
+#nav-wrapper .btn 
+{
+    padding: 2px 8px;   /* Slimmer padding */
+    font-size: 12px;    /* Smaller text */
+    line-height: 1.5;
+    margin: 0 2px;      /* Slight gap between buttons */
+}
+
+td 
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+th 
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+#headerpack h1 
+{
+    /* Remove background-color and border if you want it to look like the design */
+    background-color: transparent; 
+    border: none;
+    
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000; /* Adds readability over the leaf image */
+    text-align: center;
+}
+
+/* Ensure the header container allows the grid to center properly */
+#headerpack 
+{
+    text-align: center;
+    background-image: url(leaf7.png);
+    padding: 70px 0; /* Keep top/bottom padding, horizontal set to 0 for grid */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -20px;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+#pages /*this is the navigation menu css code*/
+{
+    background-color: rgb(9, 73, 9);
+    height: 50px;
+    text-align: center;
+    margin-top: -5px;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+  
+div p
+{
+    font-size: 25px;
+}
+
+.main-content 
+{
+    width: 70%;
+    margin: 30px auto; /* Centers the container */
+}
+
+#box0 {
+    background-color: #bdd3be;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 6px solid #0C340C;
+    font-size: 1.2rem;
+
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#box0 input,
+#box0 textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#box0 textarea {
+    resize: vertical;
+}
+
+#box0 input[type="submit"],
+#box0 input[type="reset"] {
+    width: auto;
+    min-width: 120px;
+    padding: 10px 20px;
+}
+
+.box {
+    background-color: #bdd3be;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px double black;
+
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #2e7d32;
+}
+
+@media (max-width: 768px) {
+    #box0 {
+        font-size: 1rem;
+    }
+
+    #box0 input[type="submit"],
+    #box0 input[type="reset"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+h1 
+{
+        color: #2e7d32;
+}
+
+a
+{
+    display: inline-block;
+    background-color: #198754;   /* Bootstrap success green */
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    border: 1px solid #146c43;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+a:hover
+{
+    background-color: white;
+    color: #198754;
+}
+#date
+{
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
+
+ol li {
+    margin-bottom: 20px;
+}
